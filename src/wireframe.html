@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Google Book Search</h1>
+    <main>
+        <section class="search-container">
+            <form>
+                <label for="search">Search</label>
+                <input type="text" name="user-input" id="search-input" value="Search" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+            <label for="print-type">Print Type</label>
+            <select id="print-type">
+                <option value="all">All</option>
+                <option value="books">Books</option>
+                <option value="magazines">Magazines</option>
+            </select>
+            <label for="book-type">Book Type</label>
+            <select id="book-type">
+                <option for="free-ebooks">Free eBooks</option>
+                <option for="full">Full</option>
+                <option for="paid-ebooks">Paid eBooks</option>
+                <option for="partial">Partial</option>
+            </select>
+        </section>
+        <section class="results-container">
+            <ul class="results-list">
+                <li>Result Component</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
