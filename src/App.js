@@ -82,6 +82,7 @@ export default class App extends React.Component {
                 title={book.volumeInfo.title}
                 subtitle={book.volumeInfo.subtitle}
                 key={book.id}
+                authors={book.volumeInfo.authors}
                 />
               ))}
             </section>
